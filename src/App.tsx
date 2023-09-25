@@ -9,11 +9,11 @@ import './App.css'
 function App() {
   return (
     <>
-      <div className="bg-black">
+      <div className='flex flex-col'>
         <Sidenav />
         <Main />
         <Work />
-      </div>
+      </div>      
     </>
   )
 }
